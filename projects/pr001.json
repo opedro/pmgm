@@ -1,0 +1,70 @@
+{
+    "name":"Pro inferno com agências!",
+    "deadlineInit": 6,
+    "feelingInit":10,
+    "description": "O CEO de uma pequena agência acaba de ter uma grande ideia de negocio! Acabar com o seu próprio mercado, criando uma espécie de agência virtual. É um projeto curto, tem tudo pra ser uma entrega tranquila",
+    "events":[
+        {   
+            "week":1,
+            "type":"information",
+            "hist":"up",
+            "description":"Sua equipe foi montada. A reunião de kickoff foi um sucesso, você sabe exatamente o que fazer!",
+            "actions":[
+                {
+                    "option":0,
+                    "description":"Vamos nessa!",
+                    "reaction":"Cliente: '- Esse é o início de uma parceria milionária!!!'",
+                    "deadlineEffect": 0,
+                    "feelingEffect": 0
+                }
+            ]
+            
+        },
+        {   
+            "week":1,
+            "type":"information",
+            "hist":"down",
+            "description":"Sua equipe foi montada. A reunião de kickoff foi um sucesso, você sabe exatamente o que fazer!",
+            "actions":[
+                {
+                    "option": 0,
+                    "description":"Vamos nessa!",
+                    "reaction":"Cliente: '- Esse é o início de uma parceria milionária!!!'",
+                    "deadlineEffect": 0,
+                    "feelingEffect": 0
+                }
+            ]
+            
+        },
+        {
+            "week":2,
+            "type":"information",
+            "hist":"up",
+            "description":"O cliente cancelou o projeto",
+            "actions":[
+                {
+                    "option":0,
+                    "description":"DROGA!",
+                    "reaction":"Você foi demitido",
+                    "deadlineEffect": -5,
+                    "feelingEffect": 10
+                }
+            ]
+        },
+        {
+            "week":2,
+            "type":"information",
+            "hist":"down",
+            "description":"O cliente cancelou o projeto",
+            "actions":[
+                {
+                    "option":0,
+                    "description":"DROGA!",
+                    "reaction":"Você foi demitido",
+                    "deadlineEffect": -5,
+                    "feelingEffect": 10
+                }
+            ]
+        }
+    ]
+}
