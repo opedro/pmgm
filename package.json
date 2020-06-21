@@ -1,0 +1,28 @@
+{
+  "name": "pmgm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pmgm.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "file-system": "^2.2.2",
+    "filesystem": "^1.0.1",
+    "fs": "^0.0.1-security",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opedro/pmgm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/opedro/pmgm/issues"
+  },
+  "homepage": "https://github.com/opedro/pmgm#readme"
+}
